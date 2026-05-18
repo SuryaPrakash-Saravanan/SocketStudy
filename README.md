@@ -56,6 +56,7 @@ Socket programming finds applications in various domains, including web developm
 ##Program:
 
 server.py
+
 import socket s=socket.socket()  
 s.connect(('localhost',8000))  
 while True:  
@@ -64,6 +65,7 @@ s.send("Acknowledgement Recived".encode())
 
 
 client.py
+
 import socket  
 s=socket.socket()  
 s.bind(('localhost',8000))  
